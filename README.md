@@ -40,9 +40,10 @@ If you just have checked out this software distribution from its repository, run
 
 at first. This will run autoconf and automake in order to generate the build environment. The LIBUSEFUL build environment is known to work with
 
-  autoconf 2.59
-  automake 1.8.4 and
-  libtool 1.5.18
+* autoconf 2.59
+* automake 1.8.4 and
+* libtool 1.5.18
+
 
 ### Configuration, Build and Installation
 
