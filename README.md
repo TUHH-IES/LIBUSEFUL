@@ -29,7 +29,6 @@ The folder doc contains the documentation for LIBUSEFUL.
 
 ## Build & Installation
 
-See chapters 2-5 (Build & Installation Guide) of file doc/wir.pdf.
 
 ### Bootstrapping
 
