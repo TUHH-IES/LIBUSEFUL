@@ -10,7 +10,7 @@ This code is © Heiko Falk, 2007 - 2026, and it is made available under the MIT 
 Over and above the legal restrictions imposed by this license, if you use this software for an academic publication then you are obliged to provide proper attribution. This shall come in the form of a citation in your publication such as
 
   H. Falk. LIBUSEFUL: A Collection of Useful Routines and Classes for Compiler Development and Debugging, v1.1 (2026).
-  github.com/cknight/acds, Zenodo DOI.
+  [https://github.com/TUHH-IES/LIBUSEFUL], Zenodo DOI.
 
 
 ## Directory Structure
