@@ -1,0 +1,75 @@
+LIBUSEFUL release versions
+==========================
+
+
+This repository contains the USEFUL library. The comprehensive
+release histogram is:
+
+                release 0.1
+                     |
+                release 0.2
+                     |
+                release 0.3
+                     |
+                release 0.4
+                     |
+                release 0.5
+                     |
+                release 1.0
+                     |
+                    HEAD
+
+The following releases have been created:
+
+release 0.1 (2007-12-20)
+
+        Initial version created.
+
+release 0.2 (2008-05-09)
+
+        Fixed bug #0002066. Now, the debug macros are silent if the
+          configuriaton file does not exist. Additionally, the output logfile
+          is opened only if a configuration file exists.
+        Applied some source code reformatting.
+        Added an extended macro DSTART_EXT which distinguishes between the
+          function name that should be printed out in enter/exit messages,
+          and a so-called activation name determining when to print a debug
+          message.
+        Added function ddestroy() freeing memory space allocated dynamically
+          for output streams.
+
+release 0.3 (2008-07-15)
+
+        GCC 4.2.1 compatibility achieved.
+        GCC 4.3.1 compatibility achieved.
+
+release 0.4 (2008-08-10)
+
+        Fixed a bug in dclose() related to the destruction of the ostream for
+          cout.
+        Added generic ICDInt number representation.
+
+release 0.5 (2012-09-21)
+
+        Improved build infrastructure such that compilation outside the source
+          tree is supported.
+        Removed directive 'using namespace std;' from header files in order to
+          keep namespaces clean (Ticket #0003104).
+        Added novel debug macro DDUMP() which dumps the current stack of
+          function calls to cout.
+        Shifted entire project to C++11 language standard.
+
+release 1.0 (2017-02-16)
+
+        Added I/O functions for colored error, warning, assertion and
+          information messages.
+
+release 1.1 (2021-11-23)
+
+        Switched to 64-bit builds by default.
+        Complete redesign of debug macros, featuring proper C++11 coding style,
+          more efficient internal data structures using numeric hashes instead
+          of strings, and including the proper documentation of all preprocessor
+          macros, data structures, classes and helper functions.
+
+ HEAD
