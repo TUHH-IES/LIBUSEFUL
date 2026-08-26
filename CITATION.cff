@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+title: "LIBUSEFUL - A Collection of Useful Routines and Classes for Compiler Development and Debugging."
+version: v1.1
+license: "MIT"
+type: software
+abstract: "This package contains the USEFUL library, a collection of useful routines and classes for compiler development and debugging."
+message: "If you use this software, please cite it as below."
+authors:
+  - given-names: Heiko
+    family-names: Falk
+    affiliation: Hamburg University of Technology (TUHH)
+    orcid: "https://orcid.org/0000-0003-1196-0122"
+keywords:
+  - computer science
+  - compilers

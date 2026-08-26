@@ -66,7 +66,7 @@ release 1.0 (2017-02-16)
         Added I/O functions for colored error, warning, assertion and
           information messages.
 
-release 1.1 (2021-11-23)
+release 1.1 (2021-11-23, DOI 10.5281/zenodo.22101587)
 
         Switched to 64-bit builds by default.
         Complete redesign of debug macros, featuring proper C++11 coding style,
